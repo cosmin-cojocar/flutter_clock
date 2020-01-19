@@ -6,6 +6,8 @@ See [flutter.dev/clock](https://flutter.dev/clock) for how to get started, submi
 
 Example Digital Clock
 
+<img src="https://github.com/cosmin-cojocar/flutter_clock/blob/master/presentation/digital_clock.gif">
+
 <img src="https://github.com/cosmin-cojocar/flutter_clock/blob/master/presentation/digital_clock.png">
 
-<img src="https://github.com/cosmin-cojocar/flutter_clock/blob/master/presentation/digital_clock.mov">
+
