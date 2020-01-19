@@ -1,0 +1,46 @@
+name: digital_clock
+description: Digital clock.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_clock_helper:
+    path: ../flutter_clock_helper
+  cupertino_icons: ^0.1.2
+  flutter_svg: ^0.16.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+  fonts:
+    - family: Open Sans
+      fonts:
+        - asset: fonts/OpenSans-Light.ttf
+          weight: 300
+        - asset: fonts/OpenSans-Regular.ttf
+          weight: 400
+        - asset: fonts/OpenSans-SemiBold.ttf
+          weight: 600
+        - asset: fonts/OpenSans-Bold.ttf
+          weight: 700
+    - family: Source Sans Pro
+      fonts:
+        - asset: fonts/SourceSansPro-Light.ttf
+          weight: 300
+        - asset: fonts/SourceSansPro-Regular.ttf
+          weight: 400
+        - asset: fonts/SourceSansPro-SemiBold.ttf
+          weight: 600
+        - asset: fonts/SourceSansPro-Bold.ttf
+          weight: 700
+        - asset: fonts/SourceSansPro-Black.ttf
+          weight: 900
